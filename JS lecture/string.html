@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String lessons</title>
+</head>
+<body>
+    <h3>String lessons</h3>
+    <script>
+        let firstName = "Developer";
+        let lastName = "Kyaw Gyi";
+
+       // let fullName = firstName + "" + lastName + ". I am 30 years old.";
+       // let fullName = firstName.concat("",lastName);
+       // let fullName = `$(firstName) $(lastName). I am 30 years old.`;
+        //console.log(fullName);
+
+       // let fullName = "<h3>" + firstName +"" + lastName + "</h3>" + " I am 30 years old.";
+        let fullName = `<h3>${firstName} ${lastName}.</h3> I am 30 years old.`;
+        document.write(fullName);
+
+        let job ="Developer. Kyaw Gyi      ";
+        console.log(job.trim);
+
+        console.log(job.toUpperCase());
+        console.log(job.toLowerCase());
+
+        console.log(ser.search("Kyaw"));
+        console.log(ser.indexOf("Kyaw"));
+        
+        
+        let rep = " I live Myotha.";
+        console.log(rep);
+        console.log(rep.replace("Myotha","Yangon"));
+
+        let num = '1,324,353,355';
+        console.log(num);
+        console.log(num.replace(/\,/g,''));
+
+        Document.write("I'm Kyaw Zaya Linn,5' 10\"");
+        document.write("<br>");
+
+        Document.write('I\'m Kyaw Zaya Linn.5\' 10"');
+
+        
+        
+        
+        
+    </script>
+</body>
+</html>

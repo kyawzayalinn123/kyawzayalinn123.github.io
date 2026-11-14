@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //for loop
+        //for(initialize;condition =true;update){
+        // //code
+        // }
+        
+       // document.write("<h3>Hello World</h3>");
+           // 3 3 < 3
+        for(let i =0 ;i <3;i++){
+            document.write(`<h3>Hello World</h3>`);
+        }
+
+        let laptopList = ['Macbook','Asus','Lenovo','Dell','HP','Acer'];
+
+        for(let i=0; i<laptopList.length ; i++){
+            document.write(`My Laptop is ${laptopList[i]} <br>`);
+        }
+
+        for(let i=0 ; i < 3; i++){
+            for (let k = 0;k <= i ; k++) {
+        document.write("*")
+            }
+        document.write("<br>")
+         }
+
+        // let number = parseInt(prompt("Enter a number"));
+         //while(number<100){
+          //  document.write(`Your Number is while loop in ${number}  <br>`)
+           // number += 10
+        // }
+
+        let num = parseInt(prompt("Enter a number"));
+        do{
+            document.write(`Your Number is while loop in ${num}  <br>`);
+            num += 10
+        }while(num < 100)
+
+
+    </script>
+</body>
+</html>
